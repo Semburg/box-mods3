@@ -1,0 +1,183 @@
+/* 
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+body{
+    text-align: center;
+}
+header{
+    height: 100%;
+    background: url("https://source.unsplash.com/rendom") center/cover no-repeat;
+    
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1, h2{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+header h1{
+    text-align: left;
+    padding-left:5% ;
+    padding-top: 5px;
+}
+
+header section{
+    padding: 30%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    
+    line-height: 10px;
+}
+
+header button{
+    
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    padding: 15px 20px;
+    
+}
+
+
+/* Frage zum unteren Teil - Read more nach HOVER !!! */
+button a{
+    
+    text-decoration: none;
+    font-size: 110%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header button:hover{
+    color: black;
+    background-color: white;
+}
+button a:hover{    
+    color: black;
+}
+
+aside{
+    padding-bottom: 30px;
+    padding-right: 5%;
+}
+
+nav{
+    text-align: right;
+    
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 5%;
+    padding-bottom: 15px;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+body main{
+    
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+main h2{
+    margin: 50px auto;
+}
+
+main p{
+    font-family: 'Open Sans', sans-serif;
+
+    padding: 0 20%;
+    
+}
+
+main section{
+    
+    margin: 25px auto ;
+    width: 170px;
+
+    border: gray 3px double;
+}
+
+section p:last-child:hover{
+    text-decoration: underline;
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: gray;
+    color: white;
+    height: 220px;
+    text-align: left;
+}
+
+footer p{
+    width: 35%;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 25px;
+    
+}
+
+
+
+footer button{
+    
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    padding: 15px 20px;
+    margin-left: 15px;
+    
+}
+
+
+/* Frage zum unteren Teil - Read more nach HOVER !!! */
+button a{
+    
+    text-decoration: none;
+    font-size: 110%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+footer button:hover{
+    color: black;
+    background-color: white;
+}
+footer a:hover{    
+    color: black;
+}
+
+
+footer div{
+    text-align: right;
+    padding-right: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+footer a:hover{
+    color: thistle;
+}
